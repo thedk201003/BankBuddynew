@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../static/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BankBuddy</title>
+    <style>
+        .navbar-brand {
+            position: absolute;
+            right: 50px; /* Adjust this value as needed */
+        }
+
+        .navbar-nav li {
+            margin-right: 20px; /* Adjust this value as needed */
+        }
+
+        .btn-nav {
+            font-size: 18px; /* Adjust this value as needed */
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container p-4" style="background-color: rgb(54, 3, 27)">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="../static/images/chatbox-icon.svg" width="30" height="30" class="d-inline-block align-top" alt="BankBuddy Logo">
+            BankBuddy
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="btn btn-outline-light btn-nav" href="{{ url_for('aboutus') }}">ABOUTUS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-light btn-nav" href="{{ url_for('feedback') }}">FEEDBACK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-light btn-nav" href="{{ url_for('Faq') }}">FAQ</a>
+                </li>
+                <!-- Add your new button here -->
+              
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="container p-3">
+    <p style="font-size:20px; color:black">
+    As customers nowadays are have hectic schedules, they don't find time to wait on calls to get in touch with a customer care representative. The most important thing is to ensure the immediate response when it comes to the case of the customer service. BankBuddy offers an immediate response facility to provide instant solutions and resolves their queries. BankBuddy is integrated with leveraging technologies like NLP that posses semantic analytics features and offer more human like conversations.
+</p>
+</div>
+<div class="container p-3">
+    <p style="font-size:20px; color:black">
+        We can usually notice that customers are more comfortable with the chatbots as they are more robust and efficient when responding to queries than human agents. 
+        The Chatbot - BankBuddy is able to answer the customer's basic questions regarding the different types of accounts or the other banking products available in BankBuddy.
+    </p>
+</div>
+<div class="container" style="position:fixed; bottom:0px; right: 0px">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. My name is BankBuddy. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="../static/images/chatbox-icon.svg" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{request.script_root|tojson}};
+    </script>
+    <script type="text/javascript" src="../static/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html> 

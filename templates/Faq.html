@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankBuddy FAQ</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        .faq-question {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .faq-answer {
+            font-size: 16px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .faq-question:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BankBuddy FAQ</h1>
+    </header>
+
+    <section>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(1)">
+                1. "Hello", "Hi!", "Good Morning!", "Good Evening", "Good afternoon", "Hey", "Whats up", "Is anyone there?"
+            </div>
+            <div class="faq-answer" id="answer1">
+                "Hello. Welcome to BankBuddy", "Hi ! We are here to provide our service", "Welcome", "Hi there"
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(2)">
+                2. "Hi.What is your name?", "May I know your name?", "Your name please."
+            </div>
+            <div class="faq-answer" id="answer2">
+                "My name is JDR.", "You can call me JDR."
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(3)">
+                3. "Show me all Customer Details"
+            </div>
+            <div class="faq-answer" id="answer3">
+                Rajendra meher - 9587965832<br> Dokesh ku Gadtia - 9587965832<br> Jatin Sahu - 9587965832
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(4)">
+                4. "Tell about the bank.", "Can I know about the bank", "When this bank has been started”, “Tell about your company”,”can i trust this bank”,”what is the starting year of this bank"
+            </div>
+            <div class="faq-answer" id="answer4">
+                "Since 2023, the BankBuddy has extended its service", "The BankBuddy assists customers through the various products and services it offers", "BankBuddy has provided excellent customer service"
+            </div>
+        </div>
+           
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(5)">
+                5. "what are the services BankBuddy offers ?", "Name the services provided in this bank", "What are the benefits rendered by BankBuddy?", "Describe the service provided by this bank.", "what are the available services?"
+            </div>
+            <div class="faq-answer" id="answer5">
+                "BankBuddy provides services such as account opening, digital products, and loans.", "BankBuddy offers support such as account opening, digital services, and loans."
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(6)">
+                6. "Can you tell the types of account available in this bank", "What are the types of accounts offered by the bank", "What types of accounts are offered by this bank, please?", "can i open a account?"
+            </div>
+            <div class="faq-answer" id="answer6">
+                "You can open an account in our bank which could be either a savings or a current account.", "You may open an account with our bank, which may be a current or a savings account."
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(7)">
+                7. "Hello"
+            </div>
+            <div class="faq-answer" id="answer7">
+                Hello. Welcome to BankBuddy
+            </div>
+        </div>
+
+        <!-- Add more questions and answers as needed -->
+
+    </section>
+
+    <script>
+        function toggleAnswer(id) {
+            var answer = document.getElementById("answer" + id);
+            answer.style.display = (answer.style.display === 'none' || answer.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+</html>

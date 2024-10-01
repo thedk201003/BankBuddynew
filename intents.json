@@ -1,0 +1,470 @@
+{
+  "intents": [
+    {
+      "tag":"Customer Details",
+      "patterns":[
+        "Show me  all Customer Details"
+        ],
+      "responses":[
+        "Rajendra meher-9587767832,Dokesh ku Gadtia-9887963332,Jatin Sahu-9458365832"
+        
+        ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hii!",
+        "Good Morning!",
+        "Good Evening",
+        "Good afternoon",
+        "Hey",
+        "Whats up",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello. Welcome to BankBuddy",
+        "Hi ! We are here to provide our service",
+        "Welcome",
+        "Hi there"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "Hi.What is your name?",
+        "May I know your name?",
+        "Your name please."
+      ],
+      "responses": [
+        "My name is BankBuddy.",
+        "You can call me BankBuddy."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell about the bank.",
+        "Can I know about the bank",
+        "When this bank has been started”, “Tell about your company”,”can i trust this bank”,”what is the starting year of this bank"
+      ],
+      "responses": [
+        "Since 2023, the BankBuddy has extended its service",
+        "The BankBuddy assists customers through the various products and services it offers",
+        "BankBuddy has provided excellent customer service"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "what are the services BankBuddy offers ?",
+        "Name the services provided in this bank",
+        "What are the benefits rendered by BankBuddy?",
+        "Describe the service provided by this bank.",
+        "what are the available services?"
+      ],
+      "responses": [
+        "BankBuddy provides services such as account opening, digital products, and loans.",
+        " BankBuddy offers support such as account opening, digital services, and loans."
+      ]
+    },
+    {
+      "tag": "accountopening",
+      "patterns": [
+        "Can you tell the types of account available in this bank",
+        "What are the types of accounts offered by the bank",
+        "What types of accounts are offered by this bank, please?",
+        "can i open a account?"
+      ],
+      "responses": [
+        "You can open an account in our bank which could be either a savings or a current account.",
+        "You may open an account with our bank, which may be a current or a savings account."
+      ]
+    },
+    {
+      "tag": "savecurrdiff",
+      "patterns": [
+        "Can you tell the difference between the savings and the current account ?",
+        "How to choose between a savings and a current account?",
+        "which account should I prefer ?",
+        "which account is beneficial?",
+        "what is the difference between these accounts?"
+      ],
+      "responses": [
+        "Current account is for entrepreneurs and business owners whereas savings account is for persons who get a monthly salary. ",
+        "If you are an entrepreneur and do frequent transactions, you can go with a current account.",
+        "If you get a monthly salary and perform less transactions, you can choose a savings account."
+      ]
+    },
+    {
+      "tag": "accountopenproc",
+      "patterns": [
+        "What documents are required to open an account with BankBuddy Bank?",
+        "How to open a bank account at BankBuddy?",
+        "Can you elaborate the procedure for opening an bank account?",
+        "what are the required documents?"
+      ],
+      "responses": [
+        "Select which type of bank account you are going to open. Submit proof of identity and address"
+      ]
+    },
+    {
+      "tag": "loans",
+      "patterns": [
+        "What are the different loan categories available in this bank?",
+        "Can I get loan for educational purposes?",
+        "Can I get loan for agricultural purposes",
+        "Can I get loan for business oriented purposes",
+        "Can you list the categories of the loan provided by this bank?",
+        "list the available loans",
+        "how to take a loan"
+      ],
+      "responses": [
+        "Our bank facilitates its customers by providing loans in various domains such as agriculture, education and corporate.",
+        "Yes. We do provide in various domains like agriculture, education and for business-oriented purposes."
+      ]
+    },
+    {
+      "tag": "agriloan",
+      "patterns": [
+        "Who are able to apply for agriculture loan?",
+        "What are the restrictions in applying for an agricultural loan?",
+        "How to get agricultural loan”,”Can i get agriculture loan",
+        "Is there any restriction for applying agriculture loan?"
+      ],
+      "responses": [
+        "The person must possess their own land and should know about the agricultural practices"
+      ]
+    },
+    {
+      "tag": "eduloan",
+      "patterns": [
+        "Is there any restriction on applying for educational loan?",
+        "Should I submit any documents for an educational loan?",
+        "Are mark sheets needed for applying loan for educational purpose?",
+        "Am i eligible for educational loan ?"
+      ],
+      "responses": [
+        "Yes.You need to submit the admission letter of an institute and fee schedule and also submit the marksheets.",
+        "You must submit an institute's admission letter and fee schedule, as well as your marksheets."
+      ]
+    },
+    {
+      "tag" : "businessloan",
+      "patterns":[
+        "Who are eligible for business loan?",
+        "Am I eligible for business loan",
+        "Any restrictions for business loan?",
+        "How to get business loan?",
+        "What is the procedure to get business loan?"
+        ],
+      "responses":[
+        "You should own an organisation/company under wour name. You should submit the proof"
+        ]
+    },
+    {
+      "tag":"digitalproducts",
+      "patterns":[
+        "Can you tell about the digital products this bank provide?",
+        "Does BankBuddy offer digital products ?",
+        "What are the digital products?"
+        ],
+      "responses":[
+      "Yes. BankBuddy provides many digitalproducts like mobile banking, Online banking, UPI facilities, etc."
+      ]
+},
+    {
+      "tag":"Thankyou",
+      "patterns":[
+        "Thank you for your service.",
+        "Bye BankBuddy",
+        "Bye",
+        "Thank You",
+        "Thank you so much BankBuddy."
+        ],
+      "responses":[
+        "Welcome. It is my pleasure.",
+        "Bye",
+        "Welcome."
+        ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell about the bank.",
+        "Can I know about the bank",
+        "When this bank has been started",
+        "Tell about your company",
+        "can i trust this bank",
+        "what is the starting year of this bank"
+      ],
+      "responses": [
+        "Since 2023, the BankBuddy has extended its service",
+        "The BankBuddy assists customers through the various products and services it offers",
+        "BankBuddy has provided excellent customer service"
+      ]
+    },
+       
+   
+    {
+      "tag": "loan_application",
+      "patterns": [
+        "Apply for a loan",
+        "Loan options",
+        "How can I get a loan?"
+      ],
+      "responses": [
+        "Certainly! We offer various loan options. To apply, please visit our website or speak with a loan officer at our branch.",
+        "You can explore our loan options on our website or visit our branch to speak with a loan officer. They will guide you through the application process.",
+        "To apply for a loan, you can either visit our website or visit our branch and talk to one of our loan officers. They'll assist you with the application."
+      ]
+    },
+    {
+      "tag": "closing_account",
+      "patterns": [
+        "Close my account",
+        "Account closure",
+        "I want to close my bank account"
+      ],
+      "responses": [
+        "I'm sorry to hear that you want to close your account. To proceed with the account closure, please visit our nearest branch or contact our customer service.",
+        "Account closure requests are typically handled in-person at our branches. You can visit the nearest branch or contact our customer service for assistance.",
+        "Closing an account usually requires a visit to one of our branches. Please visit the nearest branch for assistance with closing your account."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you assist me?",
+        "Help me with something"
+      ],
+      "responses": [
+        "Of course! I'm here to help. What do you need assistance with?",
+        "I'm here to assist you. Please let me know what you need help with.",
+        "Sure, I'm here to help. What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "opennewaccount",
+      "patterns": [
+        "How do I open a new bank account?",
+        "open new account",
+        "how to open account"
+      ],
+      "responses": [
+        "To open a new bank account, visit the nearest branch of the bank you're interested in. Bring valid identification documents, proof of address, and any other required documents. The bank staff will guide you through the account opening process."
+      ]
+    },
+    {
+      "tag": "typesofaccount",
+      "patterns": [
+        "What types of accounts does the bank offer?",
+        "types of account"
+      ],
+      "responses": [
+        "Banks typically offer various types of accounts, including savings accounts, checking accounts, fixed deposits, and more. The type of account you choose depends on your financial goals and needs."
+      ]
+    },
+    {
+      "tag": "debitcard",
+      "patterns": [
+        "What is a debit card, and how can I get one?",
+        "debit card",
+        "how to apply debit card"
+
+      ],
+      "responses": [
+        "A debit card is a card linked to your bank account, allowing you to make purchases and withdraw cash from ATMs. You can usually request a debit card when opening your account, and the bank will provide you with one."
+      ]
+    },
+    {
+      "tag": "Depositemoney",
+      "patterns": [
+        "How can I set up direct deposit for my salary?",
+        "Deposite money",
+        "how to deposite money"
+        
+      ],
+      "responses": [
+        "Provide your employer with your bank account details, including the account number and routing number. Your employer will then be able to deposit your salary directly into your account."
+      ]
+    },
+    {
+      "tag": "Transferringmoney",
+      "patterns": [
+        "What is the process for transferring money to another account?",
+        "Transferring money",
+        "Money Transfer"
+      ],
+      "responses": [
+        "You can transfer money to another account within the same bank or to accounts in other banks. This can often be done through online banking, mobile banking, or by visiting the bank branch. You'll need the recipient's account details."
+      ]
+    },
+    {
+      "tag": "OnlineBanking",
+      "patterns": [
+        "Can I manage my accounts online?",
+        "Online banking services",
+        "Managing accounts online"
+      ],
+      "responses": [
+        "Yes, you can manage your accounts online through our secure online banking portal. You can check your account balance, transfer funds, pay bills, and perform various other banking activities from the convenience of your home or office."
+      ]
+    },
+    {
+      "tag": "LostCreditCard",
+      "patterns": [
+        "How do I report a lost or stolen credit card?",
+        "Lost credit card",
+        "Stolen credit card"
+      ],
+      "responses": [
+        "If your credit card is lost or stolen, please contact our 24/7 customer service hotline immediately. We will assist you in blocking the card to prevent unauthorized transactions and guide you through the card replacement process."
+      ]
+    },
+    {
+      "tag": "InterestRates",
+      "patterns": [
+        "What are the interest rates on savings accounts?",
+        "Savings account interest rates",
+        "Interest rates"
+      ],
+      "responses": [
+        "Our savings account interest rates vary based on the account type and the balance maintained. You can find detailed information about our interest rates on our official website or by contacting our customer service."
+      ]
+    },
+    {
+      "tag": "KYCProcess",
+      "patterns": [
+        "What is the KYC process?",
+        "How to complete KYC?",
+        "KYC requirements"
+      ],
+      "responses": [
+        "The KYC (Know Your Customer) process involves providing valid identification and address proof documents. You can complete KYC by visiting any of our branches with the required documents, which may include a government-issued ID, proof of address, and passport-sized photographs."
+      ]
+    },
+    {
+      "tag": "AcceptedDocuments",
+      "patterns": [
+        "Which documents are accepted for KYC?",
+        "Valid KYC documents",
+        "Accepted identification for KYC"
+      ],
+      "responses": [
+        "We accept government-issued IDs such as Aadhar card, passport, driver's license, and voter ID as valid documents for KYC. Additionally, proof of address documents like utility bills or bank statements may be required."
+      ]
+    },
+    {
+      "tag": "KYCValidity",
+      "patterns": [
+        "How long is KYC valid?",
+        "KYC validity period",
+        "Renewal of KYC"
+      ],
+      "responses": [
+        "KYC validity may vary, but it is generally valid for a certain period. It's important to keep your KYC updated. We recommend checking with our customer service or visiting a branch to understand the specific KYC renewal requirements and process."
+      ]
+    },
+    {
+      "tag": "OnlineKYC",
+      "patterns": [
+        "Can I complete KYC online?",
+        "Online KYC process",
+        "KYC through the website"
+      ],
+      "responses": [
+        "Yes, we offer an online KYC process. You can initiate the KYC process through our official website by uploading the required documents. However, depending on the regulations, you may need to visit a branch for in-person verification in some cases."
+      ]
+    },
+    {
+      "tag": "KYCStatus",
+      "patterns": [
+        "How can I check my KYC status?",
+        "Check KYC approval",
+        "KYC verification status"
+      ],
+      "responses": [
+        "You can check your KYC status by logging into your online banking account or by contacting our customer service. The status will indicate whether your KYC documents have been verified and approved."
+      ]
+    },
+    {
+      "tag": "CardTypes",
+      "patterns": [
+        "What are the different types of cards?",
+        "Types of cards",
+        "Card classifications"
+      ],
+      "responses": [
+        "Cards can be classified on the basis of their issuance, usage and payment by the card holder. There are three types of cards (a) debit, (b) credit, and (c) prepaid."
+      ]
+    },
+    {
+      "tag": "CardIssuers",
+      "patterns": [
+        "Who issues these cards?",
+        "Card issuers",
+        "Issuing authorities"
+      ],
+      "responses": [
+        "Debit cards are issued by banks and are linked to a bank account. Credit cards are issued by scheduled commercial banks (excluding Payments banks), Regional Rural Banks (in collaboration with other banks), and Urban Cooperative Banks, Non-Bank Financial Companies (subject to approval from RBI). Prepaid cards are issued by eligible banks and authorised non-banks."
+      ]
+    },
+    {
+      "tag": "DebitCardUsage",
+      "patterns": [
+        "What are the usages of debit cards?",
+        "Debit card functionalities",
+        "Using debit cards"
+      ],
+      "responses": [
+        "The debit cards can be used to withdraw cash from an ATM, purchase of goods and services at points of sale (PoS) terminals or e-commerce (online purchase). They can be used domestically, or internationally."
+      ]
+    },
+    {
+      "tag": "CreditCardUsage",
+      "patterns": [
+        "What are the usages of credit cards?",
+        "Credit card functionalities",
+        "Using credit cards"
+      ],
+      "responses": [
+        "The credit cards can be used for the purchase of goods and services at PoS terminals / e-commerce. These cards can be used domestically and internationally (provided they are enabled for such use). Credit cards can also be used to draw cash advances from ATMs, subject to prescribed terms, and conditions."
+      ]
+    },
+    {
+      "tag": "PrepaidCardUsage",
+      "patterns": [
+        "What are the usages of prepaid cards?",
+        "Prepaid card functionalities",
+        "Using prepaid cards"
+      ],
+      "responses": [
+        "By nature, prepaid cards can be (a) Small PPIs and (b) Full-KYC PPIs. The usage depends on the type of PPI and is subject to prescribed limits and conditions. These cards can be issued by both banks and non-banks. Small PPIs can be used only for the purchase of goods and services at a group of clearly identified merchant locations / establishments, which have a specific contract with the issuer (or contract through a payment aggregator / payment gateway) to accept the PPIs as payment instruments. Full KYC-PPIs can be used for the purchase of goods and services, funds transfer or cash withdrawal."
+      ]
+    },
+    {
+      "tag": "PoSTerminalUsage",
+      "patterns": [
+        "What are various methods of using a card at a PoS terminal?",
+        "Card usage at PoS terminal",
+        "PoS terminal card methods"
+      ],
+      "responses": [
+        "A card can be dipped (Chip based card), tapped (Contactless Near Field Communication {NFC} Card) or swiped (Magnetic-Stripe card) at a PoS terminal."
+      ]
+    },
+    {
+      "tag": "CardTechnologies",
+      "patterns": [
+        "What are Magnetic Stripe cards, EMV Chip & PIN cards and Contactless NFC cards?",
+        "Card technologies",
+        "Types of card technologies"
+      ],
+      "responses": [
+        "The EMV Chip & PIN card stores card data in a chip, while the data in magnetic stripe card is stored on the magnetic stripe present on the card."
+      ]
+    }
+  ]
+}
