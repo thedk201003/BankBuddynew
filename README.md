@@ -10,8 +10,6 @@ A sophisticated banking chatbot designed to provide seamless assistance to users
   - [Prerequisites](#prerequisites)
   - [Steps to Clone and Run the Project](#steps-to-clone-and-run-the-project)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 
 ## Project Description
